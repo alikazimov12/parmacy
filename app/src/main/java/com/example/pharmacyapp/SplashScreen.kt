@@ -9,6 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.pharmacyapp.infoStages.FirstInfoStage
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +30,8 @@ class SplashScreen : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed(
             {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, FirstInfoStage::class.java)
+//                val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
                 finish()
             }
