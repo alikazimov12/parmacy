@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/find_medicines_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Pharmacy"
+        android:fontFamily="@font/zirkelbold"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/find_medicines_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick the pharmacy that suits you best. We've got trusted options and reliable options in our network."
+        android:textSize="18sp"
+        android:padding="22dp"
+        android:fontFamily="@font/zirkelblack"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/black"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/centerImageCtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pharmacyimage"
+                />
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/continue_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:layout_gravity="bottom"
+            android:backgroundTint="@color/teal"
+            android:textColor="@color/white"
+            android:padding="16dp" />
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

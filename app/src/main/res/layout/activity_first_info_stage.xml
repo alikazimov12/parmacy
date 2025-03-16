@@ -17,6 +17,8 @@
         android:gravity="center"
         android:layout_marginTop="50dp">
 
+
+
     </LinearLayout>
 
 
@@ -53,7 +55,7 @@
             android:id="@+id/centerImageCtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="60dp"
+            android:layout_margin="36dp"
             android:orientation="vertical"
             >
             <androidx.cardview.widget.CardView
